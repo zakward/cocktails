@@ -8,12 +8,6 @@ import RandomDrink from "./components/RandomDrink"
 import SearchByName from "./components/SearchByName"
 import DrinkDetail from "./components/DrinkDetail"
 
-const linkStyle = {
-    textDecoration: "none",
-    color: "white",
-    fontSize: "25px",
-    fontFamily: "Lora, serif"
-}
 
 function App() {
     return (
