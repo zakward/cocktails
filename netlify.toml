@@ -1,6 +1,6 @@
 [build]
     command = "npm run build" 
-    publish = "/public" 
+    publish = "/level-4-capstone-app" 
 
 [[redirects]]
     from = "/*" 
