@@ -1,8 +1,8 @@
 import React, {useState} from "react"
-import {Link, Route} from "react-router-dom"
+import {Link} from "react-router-dom"
 import "../css/RandomDrink.css"
 import axios from "axios"
-import DrinkDetail from "./DrinkDetail"
+
 
 function RandomDrink() {
 
@@ -33,7 +33,7 @@ function RandomDrink() {
             <h1 className = "random-title">Random Cocktail Generator</h1>
             <div className = "random-container">
                 <Link className = "detail-link" to = {`/drinkDetail/${randomCocktail.idDrink}`}><h3 className = "random-name">"{randomCocktail.strDrink}"</h3></Link>
-                <Link to = {`/drinkDetail/${randomCocktail.idDrink}`}><img className = "random-img" src = {randomCocktail.strDrinkThumb} /></Link>
+                <Link to = {`/drinkDetail/${randomCocktail.idDrink}`}><img alt = "drink" className = "random-img" src = {randomCocktail.strDrinkThumb} /></Link>
                 <button onClick = {getRandomCocktail} type="button" className="generate-btn">GENERATE NEW COCKTAIL</button>
             </div>
 

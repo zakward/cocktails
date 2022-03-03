@@ -59,7 +59,7 @@ function SearchByName() {
         return (
             <>
                <Link className = "detail-link" to = {`/drinkDetail/${drink.idDrink}`}><h1 className = "drinks-title">"{drink.strDrink}"</h1></Link>
-                <img src = {drink.strDrinkThumb} className = "drinks-img"/>
+                <img src = {drink.strDrinkThumb} className = "drinks-img" alt = "drink"/>
                 < hr className = "search-break" />
             </>
         )

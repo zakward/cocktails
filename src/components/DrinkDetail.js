@@ -1,5 +1,5 @@
 import React from "react"
-import {Link, useParams, useNavigate} from "react-router-dom"
+import { useParams, useNavigate} from "react-router-dom"
 import axios from "axios"
 import "../css/DrinkDetail.css"
 
@@ -56,7 +56,7 @@ const [cocktailDetail, setCocktailDetail] = React.useState({
               })
         })   
         .catch(err => console.log(err))
-    }, []
+    }, [ drinkId ]
         
     )
    
@@ -67,7 +67,7 @@ const [cocktailDetail, setCocktailDetail] = React.useState({
                 <h1 className ="detail-title">"{cocktailDetail.strDrink}"</h1>
             </div>
             <div className = "drink-container">
-                <img className = "detail-img"src = {cocktailDetail.strDrinkThumb} />
+                <img className = "detail-img" alt = "drink" src = {cocktailDetail.strDrinkThumb} />
                 <div className = "details-container">
                 <h3 className = "detail category"><b>Cocktail Category:</b> {cocktailDetail.strCategory}</h3>
                 <h3 className = "detail glass "><b>Cocktail Glass: </b> {cocktailDetail.strGlass}</h3>
