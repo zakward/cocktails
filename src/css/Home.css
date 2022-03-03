@@ -37,8 +37,7 @@ body {
     font-weight: 100;
 }
 
-@media only screen and (max-width: 375px) {
-
+@media only screen and (max-width: 500px) {
     .header-title {
         font-size: 26px;
     }
