@@ -82,3 +82,150 @@ body {
     left: 40%;
     top: 50%;
 }
+
+@media only screen and (max-width: 1750px) {
+
+    .search-title {
+        font-size: 36px;
+    }
+
+    .search-input {
+        width: 460px;
+    }
+
+    .search-btn {
+        width: 130px;
+        font-size: 19px;
+    }
+
+}
+
+@media only screen and (max-width: 1350px) {
+
+    .search-break {
+        width: 500px;
+    }    
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .search-title {
+        font-size: 28px;
+    }
+
+    .search-input {
+        width: 365px;
+        font-size: 20px;
+        height: 33px;
+    }
+
+    .search-btn {
+        width: 110px;
+        font-size: 14px;
+        height: 37px;
+    }
+
+    .search-break {
+        width: 412px;
+    }
+
+}
+
+@media only screen and (max-width: 950px) {
+
+    .search-title {
+        font-size: 22px;
+    }
+
+    .search-input {
+        height: 25px;
+        width: 317px;
+        font-size: 17px;
+        margin-top: 22px;
+    }
+
+    .search-break {
+        width: 355px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .search-title {
+        font-size: 19px;
+        margin-top: 55px;
+    }
+
+    .search-input {
+        height: 18px;
+        width: 261px;
+    }
+
+    .search-btn {
+        margin-top: 34px;
+        height: 25px;
+        font-size: 11px;
+    }
+
+    .search-break {
+        width: 298px;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+    .main-container {
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+    
+    .drinks-title {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .drinks-title {
+        font-size: 20px;
+    }
+
+    .search-break {
+        margin-top: 25px;
+        width: 235px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+
+    .search-title {
+        font-size: 15px;
+    }
+    
+    .search-input {
+        width: 193px;
+        height: 10px;
+        font-size: 10px;
+    }
+
+    .search-btn {
+        height: 16px;
+        margin-top: 14px;
+        width: 73px;
+    }
+
+    .search-break {
+        height: 3px;
+    }
+
+    .search-container {
+        margin-bottom: 0px;
+    }
+}
