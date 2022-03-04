@@ -107,12 +107,7 @@ body {
 
 }
 
-@media only screen and (max-width: 400px) {
 
-    .link-style {
-        font-size: 5px;
-    }
-}
 
 @media only screen and (max-width: 500px) {
 
@@ -129,3 +124,11 @@ body {
         justify-content: space-evenly;
     }
 }
+
+@media only screen and (max-width: 400px) {
+
+    .link-style {
+        font-size: 5px;
+    }
+}
+

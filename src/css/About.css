@@ -264,3 +264,25 @@ body {
     }
 
 }
+
+
+    @media only screen and (max-width: 300px) {
+
+        .about-title {
+            font-size: 24px;
+        }
+
+        .functions-title {
+            font-size: 21px;
+        }
+
+        .functions-container > h3 {
+            font-size: 16px;
+        }
+
+        .functions-container > p {
+            font-size: 10px;
+        }
+    
+    }
+
