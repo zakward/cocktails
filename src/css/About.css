@@ -79,6 +79,17 @@ body {
 }
 
 
+@media only screen and (max-width: 1500px) {
+
+    .about-header-container {
+        grid-template-rows: 150px 275px;
+    }
+
+    .about-title {
+        font-size: 56px;
+    }
+}
+
 
 @media only screen and (max-width: 1400px) {
 
@@ -233,6 +244,14 @@ body {
 
     .about-header-container {
         grid-template-rows: 150px 162px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .about-title {
+        font-size: 35px;
+        margin-top: 20px;
     }
 
 }
