@@ -135,6 +135,7 @@ body {
         width: 300px;
         height: 300px;
         margin-bottom: 50px;
+        margin-left: 0px;
     }
 
     .drink-container {
