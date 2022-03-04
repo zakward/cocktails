@@ -283,6 +283,10 @@ body {
         .functions-container > p {
             font-size: 10px;
         }
+
+        .about-header-container {
+            grid-template-rows: 150px 220px;
+        }
     
     }
 
