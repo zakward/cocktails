@@ -58,8 +58,8 @@ function SearchByName() {
     const drinkElement = drinksArr.map(drink => {
         return (
             <>
-               <Link className = "detail-link" to = {`/drinkDetail/${drink.idDrink}`}><h1 className = "drinks-title">"{drink.strDrink}"</h1></Link>
-                <img src = {drink.strDrinkThumb} className = "drinks-img" alt = "drink"/>
+               <Link className = "detail-link" to = {`/drinkDetail/${drink.idDrink}`}><h1 className = "drinks-title">"{drink.strDrink}"</h1>
+                <img src = {drink.strDrinkThumb} className = "drinks-img" alt = "drink"/></Link>
                 < hr className = "search-break" />
             </>
         )
@@ -67,20 +67,22 @@ function SearchByName() {
 
     return (
         <>
-        <div className = "main-container">
-             <div className = "search-container">
-                <h1 className= "search-title">SEARCH BY COCKTAIL NAME</h1>
-                <input  className = "search-input" placeholder = "Cocktail Name" onChange = {handleChange} type="text" name ="strDrink" value = {searchedDrink.strDrink}/>
-                <button className = "search-btn" type="submit" onClick = {getSearchedDrinkByName}>SEARCH</button> 
-                <hr className = "search-break" />
-            </div> 
-            <div className = "search-container">
-                <h1 className= "search-title">SEARCH BY COCKTAIL INGREDIENT</h1>
-                <input  className = "search-input" placeholder = "Cocktail Ingredient" onChange = {handleChange} type="text" name ="ingredient" value = {searchedDrink.ingredient}/>
-                <button className = "search-btn" type="submit" onClick = {getSearchedDrinkByIngredient}>SEARCH</button> 
-                < hr className = "search-break" />
-            </div>
-        </div>
+            <div className = "main-container">
+                        <div className = "search-container">
+                            <h1 className= "search-title">SEARCH BY COCKTAIL NAME</h1>
+                            <input  className = "search-input" placeholder = "Cocktail Name" onChange = {handleChange} type="text" name ="strDrink" value = {searchedDrink.strDrink}/>
+                            <button className = "search-btn" type="submit" onClick = {getSearchedDrinkByName}>SEARCH</button> 
+                            <hr className = "search-break" />
+                        </div> 
+                        <div className = "search-container">
+                            <h1 className= "search-title">SEARCH BY COCKTAIL INGREDIENT</h1>
+                            <input  className = "search-input" placeholder = "Cocktail Ingredient" onChange = {handleChange} type="text" name ="ingredient" value = {searchedDrink.ingredient}/>
+                            <button className = "search-btn" type="submit" onClick = {getSearchedDrinkByIngredient}>SEARCH</button> 
+                            < hr className = "search-break" />
+                        </div>
+                    </div>
+        
+        
            
             <div className = "drinks-container">
                {errMessage !== null ? <h1>{errMessage}</h1> : drinkElement}
