@@ -13,7 +13,9 @@ function About() {
             <h2 className = "functions-title">PRIMARY FUNCTION</h2>
             <div className = "functions-container">
                 <h3>Generate a Random Cocktail</h3>
-                    <p>Description:  Click "Generate a New Cocktail" to access a random cocktail from the CocktailDB API</p>
+                    <p>Description:  Click "Generate a New Cocktail" in the navbar to access a random cocktail from the CocktailDB API</p>
+                <h3>Search for a Cocktail by Name or Ingredient</h3>  
+                    <p>Description: Click "Search By" in the navbar to search for a specific cocktail by name or search for all cocktails that contain a specific Ingredient</p>  
                     <p>Click the Name or Image to view a detail page with ALL the details regarding the Cocktail</p>
             </div>
       
