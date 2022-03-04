@@ -52,3 +52,67 @@ body {
     letter-spacing: 2px;
     font-weight: 800;
 }
+
+@media only screen and (max-width: 1280px) {
+
+    .random-title {
+        font-size: 4em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .random-title {
+        font-size: 3em;
+    }
+
+    .random-name {
+        font-size: 35px;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+    .random-title{
+        font-size: 2em;
+}
+
+    .random-name {
+        font-size: 25px;
+    }
+
+    .random-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .generate-btn {
+        width: 175px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 355px) {
+
+    .random-title {
+        font-size: 1em;
+    }
+
+    .random-name {
+        font-size: 18px;
+    }
+
+    .random-img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .generate-btn {
+        height: 30px;
+        font-size: 9px;
+    }
+
+}
