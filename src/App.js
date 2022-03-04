@@ -13,9 +13,9 @@ function App() {
     return (
         <>
             <nav className = "navbar">
+                <h3 className = "nav-title" >The Cocktail Connoisseur App</h3>
                 <Link to ="/" className = "link-style">HOME</Link>
                 <Link to = "/about" className = "link-style">ABOUT</Link>
-                <h3 className = "nav-title" >The Cocktail Connoisseur App</h3>
                 <Link to = "/randomDrink"  className = "link-style">RANDOM DRINK GENERATOR</Link>
                 <Link to = "/searchByName" className = "link-style" >SEARCH BY</Link>
             </nav>
