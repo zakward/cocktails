@@ -290,3 +290,11 @@ body {
     
     }
 
+    @media only screen and (max-width: 225px) {
+
+        .about-header-container {
+            grid-template-rows: 150px 300px;
+        }
+
+    }
+
